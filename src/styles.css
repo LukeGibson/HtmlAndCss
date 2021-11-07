@@ -1,28 +1,31 @@
-h1 {
-  color:orange;
-  background-color: slategray;
-  font-size: 50px;
-  font-family: Arial;
-  text-align: center;
+/* 
+.error {
+  color: red;
 }
-p {
-  color: slategrey;
-  font-family: Arial;
-  text-align: left;
-  line-height:30px;
-  letter-spacing: 2px;
-  column-count: 3;
-  column-gap: 60px;
+
+p.good {
+  color: rgba(12, 156, 12, 0.651);
 }
-ul {
-  /* border-width: 4px;
-  border-style: dashed;
-  border-color: crimson; */
-  /* border: 4px solid crimson; */
-  border-bottom: 4px dotted crimson;
-  border-left: 8px dashed crimson;
+
+p.good.feedback {
+  border: 1px dashed yellowgreen;
 }
-li {
-  list-style-type: none;
-  text-shadow: 2px 2px lightgray;
+
+#content {
+  background-color: #ebebeb;
+  padding: 20px;
+} */
+/* 
+div .error{
+  color: red;
+} */
+
+a[href*="google"]{
+  background-color: rgb(226, 132, 70);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 5px;
+  padding-right: 5px;
 }
