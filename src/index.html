@@ -4,43 +4,42 @@
     <title>Learning HTML</title>
   </head>
   <body>
+    <h1>HTML Forms</h1>
 
-    <div>
-      <p>hello <strong>world</strong></p>
-      <p>oh look some a lovely <small>little</small> <em>p tag</em></p>
-      <a href="https://github.com/LukeGibson">My GitHub</a>
-      <a href="about.html">About page</a>
-    </div>
+    <form>
+      <h3>User Login</h3>
 
-    <div>
-      <h1>heading 1</h1>
-      <h2>heading 2</h2>
-      <h3>heading 3</h3>
-      <h4>heading 4</h4>
-    </div>
+      <label for="username">Name:</label>
+      <input type="text" id="username" name="username" placeholder="myname123" required>
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="test@test.co.uk" required>
+      <br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br><br>
 
-    <div>
-      <ul>
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-      </ul>
-    </div>
+      <p>Select your age category:</p>
+      <input type="radio" name="age" value="child" id="option-child">Child<br>
+      <input type="radio" name="age" value="adult" id="option-adult">Adult<br>
+      <input type="radio" name="age" value="senior" id="option-senior">Senior<br>
+      <br><br>
 
-    <span>I am a span<br>tag</span>
+      <label for="">Security Question</label>
+      <select name="question" id="question">
+        <option value="q1">Whats your favourite colour?</option>
+        <option value="q2">Whats your doctors name?</option>
+        <option value="q3">What your favourite security question?</option>
+      </select>
+      <label for="asnwer">Answer:</label>
+      <input type="text" name="answer" id="answer" placeholder="my answer...">
+      <br><br>
 
-    <blockquote cite="http://www.oscarwildesite.com">
-      We are all in the gutter, but some of us are looking at the stars
-    </blockquote>
+      <label for="bio">Your Bio:</label><br>
+      <textarea name="bio" id="bio" cols="80" rows="10" placeholder="About you..."></textarea>
 
-    <hr>
-
-    <p style="color:orange">Style Me!</p>
-
-    <img
-      src="../assets/logo.jpg"
-      alt="BSC logo"
-      onerror="console.log('error')"
-    >
+      <br><br>
+      <input type="submit" name="submit-form" id="submit-form">
+    </form>
   </body>
 </html>
