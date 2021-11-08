@@ -174,3 +174,74 @@ p::selection {
 p::after {
   content: '...';
 }
+
+/* responsive styles */
+
+@media screen and (max-width: 1200px) {
+
+  .banner .welcome h2{
+    font-size: 30px;
+  }
+
+  nav li {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .banner .welcome h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .banner .welcome {
+    position: relative;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 15px;
+  }
+
+  .banner .welcome br {
+    display: none;
+  }
+
+  .banner .welcome h2 {
+    font-size: 20px;
+  }
+
+  .banner .welcome span {
+    font-size: 1em;
+  }
+
+  .images li {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .images {
+    margin: 40px auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  nav li {
+    font-size: 20px;
+    position:relative;
+    display: block;
+    margin: 10px;
+    text-align: left;
+  }
+
+  nav {
+    padding: 10px 10px;
+    top: 0px;
+  }
+
+  header {
+    position: relative;
+  }
+}
