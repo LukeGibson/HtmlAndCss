@@ -20,7 +20,7 @@ div .error{
   color: red;
 } */
 
-a[href*="google"]{
+/* a[href*="google"]{
   background-color: rgb(226, 132, 70);
   color: white;
   text-decoration: none;
@@ -28,4 +28,21 @@ a[href*="google"]{
   text-transform: uppercase;
   padding-left: 5px;
   padding-right: 5px;
+} */
+
+div {
+  color: lightcoral;
+  border: 1px dashed lightgray;
+  margin: 40px;
+  font-weight: bold;
+}
+
+p {
+  border: inherit;
+  margin: inherit;
+  color: crimson;
+}
+
+p {
+  color: orange;
 }
